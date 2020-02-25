@@ -1,0 +1,33 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+    font-family: Fixed, monospace;
+    color: #313638;
+}
+
+a {
+    font-family: Courier, monospace;
+    text-decoration: none;
+    color: #4E5956;
+}
+
+a:hover, a:hover a:visited {
+    color: #F06543;
+}
+
+ul {
+    list-style-type: square;
+}
+
+footer {
+    font-family: Courier, monospace;
+    font-size: .7em;
+    color: #fff;
+    background: #000;
+    text-align: center;
+}
